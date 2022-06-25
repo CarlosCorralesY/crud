@@ -1,0 +1,50 @@
+<!DOCTYPE html">
+<html lang="pt-br">
+<head>
+	<title>pROYECTO</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+
+	<script src="myscript.js"></script>
+</head>
+
+<body>
+	<div class="all">
+		<h1 class="title">PRUEBA</h1>
+		<div class="center-fixed">
+			<form id="frmCadastro">
+				<label for="txtnomb">NOMBRE</label><br>
+				<input type="text" id="txtnomb" placeholder="nomb"><br>
+
+				<label for="dtpDataNacimiento">FECHA DE NACIMIENTO</NAC></label><br>
+				<input type="date" id="dtpDataNacimiento" value="1990-08-29" required>
+
+				<fieldset>
+					<legend>Sexo</legend>
+					<input type="radio" name="genero" value="male" id="rdoMasculino" checked>
+					<label for="rdoMasculino">MASCULINO</label><br>
+
+					<input type="radio" name="genero" value="female" id="rdoFeminino">
+					<label for="rdoFeminino">FEMENINO</label>
+				</fieldset>
+
+				<input type="submit" name="" id="btnCadastrarSalvar" value="GUARDAR">
+			</form>
+		</div>
+		<table>
+			<caption><h2>TABLA</h2></caption>
+			<thead>
+				<tr>
+					<th>Id</th>
+					<th>NOMBRE</th>
+					<th>NACIMIENTO</th>
+					<th>SEXO</th>
+					<th>HORA Y FECHA</th>
+				</tr>
+			</thead>
+			<tbody id="tbodyResultados"></tbody>
+			<tfoot></tfoot>
+		</table>
+	</div>
+</body>
+</html>
